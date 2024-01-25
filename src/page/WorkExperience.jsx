@@ -1,9 +1,9 @@
 import SectionHeading from "../components/SectionHeading";
 
 const WorkExperience = () => {
-  return <>
+  return <section id='experience'>
   <SectionHeading> Work Experience </SectionHeading>
-  </>
+  </section>
 };
 
 export default WorkExperience;

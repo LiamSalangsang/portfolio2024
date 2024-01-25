@@ -8,7 +8,7 @@ import Circle from "./components/Circle";
 
 
 const App = () => {
-  return <div className="flex flex-col items-center bg-gray-100 z-[-100]">
+  return <div className="flex flex-col items-center bg-gray-400 z-[-100] h-[5000px]">
   <NavigationBar/>
   <Circle/>
   <Main/>
