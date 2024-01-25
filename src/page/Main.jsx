@@ -1,13 +1,11 @@
-import profile from '../assets/profile.png';
-import CV from '../assets/LiamSalangsangCV.pdf';
+import CV from '../assets/resume/LiamSalangsangCV.pdf';
 import { HiDownload } from 'react-icons/hi'
 import { BsArrowRight, BsLinkedin, BsGithub } from 'react-icons/bs';
+import Intro from '../components/Intro';
 
 const Main = () => {
   return <div id="home">
-    <div className='flex items-center justify-center'>
-      <img  alt = 'Liam Salangsang Portrait' className = "mt-[8rem] mb-10 w-[18rem] h-[18rem] object-cover rounded-full border-[0.35rem] border-black/85 shadow-xl" src={profile} />
-    </div>
+    <Intro/>
     <section id = 'contact' className='flex gap-4 justify-center items-center text-lg'>
     <a className='group bg-gray-900 text-white  flex items-center px-7 py-4 gap-2 rounded-full font-semibold hover:scale-110 transition'>Lets Get In Contact!
     <BsArrowRight className='opacity-60 group-hover:translate-x-4 group-hover:opacity-100 transition'/> </a>

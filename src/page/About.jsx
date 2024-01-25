@@ -2,10 +2,10 @@ import SectionHeading from "../components/SectionHeading";
 
 const About = () => {
   return (
-    <section id ='about' className="leading-8 max-w-[45rem] text-center">
+    <section id ='about' className="leading-8 max-w-[45rem] text-center text-[1rem]">
       <SectionHeading>About Me</SectionHeading>
 
-      <p className="mb-4">
+      <p className="mb-4 ">
         {" "}
         Studying a{" "}
         <span className="font-bold">Bachelor of Computer Science</span> at the
