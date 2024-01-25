@@ -5,7 +5,9 @@ import { BsArrowRight, BsLinkedin, BsGithub } from 'react-icons/bs';
 
 const Main = () => {
   return <div>
-    <div className='flex items-center justify-center'><img  alt = 'Liam Salangsang Portrait' className = "mt-[8rem] w-[23rem] h-[23rem] object-cover rounded-2xl border-[0.35rem] border-white/85 shadow-xl" src={profile} /></div>
+    <div className='flex items-center justify-center'>
+      <img  alt = 'Liam Salangsang Portrait' className = "mt-[8rem] w-[18rem] h-[18rem] object-cover rounded-2xl border-[0.35rem] border-white/85 shadow-xl" src={profile} />
+    </div>
     <section className='flex gap-4 justify-center items-center text-lg'>
     <a className='group bg-gray-900 text-white  flex items-center px-7 py-4 gap-2 rounded-full font-semibold hover:scale-110 transition'>Lets Get In Contact!
     <BsArrowRight className='opacity-60 group-hover:translate-x-4 group-hover:opacity-100 transition'/> </a>
