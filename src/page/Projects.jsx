@@ -10,7 +10,6 @@ const Projects = () => {
 
     return <div className= 'relative' key = {index}>
       <ProjectSection {...project}/>
-
     </div>
   }
   )}
