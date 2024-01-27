@@ -7,7 +7,7 @@ const Main = () => {
   return <div id="home">
     <Intro/>
     <section id = 'contact' className='flex gap-4 justify-center items-center text-lg'>
-    <a className='group bg-gray-900 text-white  flex items-center px-7 py-4 gap-2 rounded-full font-semibold hover:scale-110 transition'>Lets Get In Contact!
+    <a href="mailto:liam.jacobsalangsang@gmail.com" className='group bg-gray-900 text-white  flex items-center px-7 py-4 gap-2 rounded-full font-semibold hover:scale-110 transition'>Lets Get In Contact!
     <BsArrowRight className='opacity-60 group-hover:translate-x-4 group-hover:opacity-100 transition'/> </a>
     <a href = {CV} download className='group bg-white text-gray-900  px-7 py-4 flex items-center gap-2 rounded-full font-semibold hover:scale-110 transition'>Download CV
     <HiDownload className='opacity-60 group-hover:translate-y-2 group-hover:opacity-100 transition'/>

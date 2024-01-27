@@ -1,5 +1,6 @@
-import buildingImg from "../assets/building.jpg";
-import meHrImg from "../assets/me_and_hr.jpg";
+import techverse from "../assets/techverse.png";
+import shoes from "../assets/shoes.png";
+import companyIMG from "../assets/company.jpg";
 
 export const links = [
   { name: "Home", hash: "#home" },
@@ -15,18 +16,29 @@ export const projects = [
     description:
       "Tech Ecommerce Store. Always been interested in the current tech trends",
     skills: ["MONGODB", "NestJS", "React", "NodeJS"],
-    image: buildingImg,
+    image: techverse,
   },
   {
     title: "Exclusive Shoes Store",
     description: "Exclusive Shoes Only Store. I love collecting shoes",
     skills: ["MongoDB", "ExpressJS", "React", "NodeJS"],
-    image: meHrImg,
+    image: shoes,
+  },
+];
+
+export const experience = [
+  {
+    title: "Front End Developer Intern",
+    location: "Bangkok, Thailand",
+    timeWorked: "Nov 2023 -  Feb 2024",
+    achievements: [],
+    photos: companyIMG,
   },
   {
-    title: "Weather App",
-    description: "Weather App to test skills in mobile developement",
-    skills: ["Swift"],
-    image: buildingImg,
+    title: "Academic Tutor",
+    location: "Brisbane, Australia",
+    timeWorked: "Jan 2023 - Jul 2023",
+    achievements: [],
+    photos: companyIMG,
   },
 ];
