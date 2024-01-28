@@ -5,6 +5,7 @@ import companyIMG from "../assets/company.jpg";
 export const links = [
   { name: "Home", hash: "#home" },
   { name: "About", hash: "#about" },
+  { name: "Skills", hash: "#skills" },
   { name: "Experience", hash: "#experience" },
   { name: "Portfolio", hash: "#projects" },
   { name: "Contact", hash: "#contact" },
@@ -41,4 +42,22 @@ export const experience = [
     achievements: [],
     photos: companyIMG,
   },
+];
+
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "NestJS",
+  "NodeJS",
+  "Git",
+  "Tailwind",
+  "Prisma",
+  "MongoDB",
+  "Express",
+  "SQL",
+  "Python",
+  "Framer Motion",
 ];

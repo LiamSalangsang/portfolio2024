@@ -1,6 +1,6 @@
 
 const ExperienceSection = (props) => {
-  const {title, location, timeWorked, achievements,photos} = props
+  const {title, location, timeWorked, achievements,photos} = props;
   return <><section className="bg-black/60 text-white min-w-80">
     <div className=" text-center p-4 m-2 border-b border-b-white/50">{title}</div>
     <div className="flex gap-2 overflow-hidden" >
