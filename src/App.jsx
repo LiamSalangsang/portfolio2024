@@ -10,7 +10,7 @@ import Skills from "./page/Skills";
 
 
 const App = () => {
-  return <div className="flex flex-col items-center bg-gray-100 z-[-100] h-[4000px]">
+  return <div className="flex flex-col items-center bg-gray-100 z-[-100]">
   <NavigationBar/>
   <Circle/>
   <Main/>

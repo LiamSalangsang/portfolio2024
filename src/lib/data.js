@@ -32,14 +32,21 @@ export const experience = [
     title: "Front End Developer Intern",
     location: "Bangkok, Thailand",
     timeWorked: "Nov 2023 -  Feb 2024",
-    achievements: [],
+    achievements: ["dsdksdsds", "sdnksndknskd", "dmsmdksmdkms"],
     photos: companyIMG,
   },
   {
     title: "Academic Tutor",
     location: "Brisbane, Australia",
     timeWorked: "Jan 2023 - Jul 2023",
-    achievements: [],
+    achievements: ["dsdksdsds", "sdnksndknskd", "dmsmdksmdkms"],
+    photos: companyIMG,
+  },
+  {
+    title: "McDonalds Crew Trainer",
+    location: "Brisbane, Australia",
+    timeWorked: "Jan 2018 - Nov 2022",
+    achievements: ["dsdksdsds", "sdnksndknskd", "dmsmdksmdkms"],
     photos: companyIMG,
   },
 ];
