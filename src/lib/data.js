@@ -1,6 +1,7 @@
 import techverse from "../assets/techverse.png";
 import shoes from "../assets/shoes.png";
 import companyIMG from "../assets/company.jpg";
+import { MdWork } from "react-icons/md";
 
 export const links = [
   { name: "Home", hash: "#home" },
@@ -32,22 +33,30 @@ export const experience = [
     title: "Front End Developer Intern",
     location: "Bangkok, Thailand",
     timeWorked: "Nov 2023 -  Feb 2024",
-    achievements: ["dsdksdsds", "sdnksndknskd", "dmsmdksmdkms"],
-    photos: companyIMG,
+    achievements: [
+      "Employed React.JS and React Native to create applications.",
+      "Learnt more about Full Stack Development.",
+      "Collaborated with Team using Agile.",
+    ],
+    icon: { MdWork },
+    description: "React | NestJS | Jira | SQL",
   },
   {
     title: "Academic Tutor",
     location: "Brisbane, Australia",
     timeWorked: "Jan 2023 - Jul 2023",
     achievements: ["dsdksdsds", "sdnksndknskd", "dmsmdksmdkms"],
-    photos: companyIMG,
+    icon: { MdWork },
+    description: "dfndnkdndkndknfkdfkd fndkfnkdnfkdn fndknfkdnk",
   },
   {
     title: "McDonalds Crew Trainer",
     location: "Brisbane, Australia",
     timeWorked: "Jan 2018 - Nov 2022",
     achievements: ["dsdksdsds", "sdnksndknskd", "dmsmdksmdkms"],
-    photos: companyIMG,
+    icon: { MdWork },
+
+    description: "dfndnkdndkndknfkdfkd fndkfnkdnfkdn fndknfkdnk",
   },
 ];
 
