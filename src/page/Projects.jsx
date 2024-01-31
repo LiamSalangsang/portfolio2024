@@ -3,12 +3,12 @@ import ProjectSection from "../components/ProjectSection";
 import { projects } from "../lib/data";
 
 const Projects = () => {
-  return <div className="text-center flex gap-2 flex-col relative" id="projects">
+  return <div className="text-center flex flex-col relative" id="projects">
   <SectionHeading>Portfolio</SectionHeading>
   
 {  projects.map((project,index) =>{
 
-    return <div className= 'relative' key = {index}>
+    return <div className= 'm-4' key = {index}>
       <ProjectSection {...project}/>
     </div>
   }
