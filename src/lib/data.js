@@ -3,7 +3,7 @@ import shoes from "../assets/shoes.png";
 import companyIMG from "../assets/company.jpg";
 import React from "react";
 import { MdWork } from "react-icons/md";
-import { FaReact, FaGraduationCap } from "react-icons/fa"
+import { FaReact, FaHotel } from "react-icons/fa"
 
 export const links = [
   { name: "Home", hash: "#home" },
@@ -50,7 +50,7 @@ export const experience = [
     achievements: ["Communicating with client to provide best services",
      "Consistently proved to provide cleaning services in efficient manner", 
      "Distributed  workload evenly among team members."],
-    icon: React.createElement(FaGraduationCap),
+    icon: React.createElement(FaHotel),
     description: "Efficiency | Quality Assurance | Communication | Customer Service",
   },
   {
