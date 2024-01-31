@@ -1,7 +1,9 @@
 import techverse from "../assets/techverse.png";
 import shoes from "../assets/shoes.png";
 import companyIMG from "../assets/company.jpg";
+import React from "react";
 import { MdWork } from "react-icons/md";
+import { FaReact, FaGraduationCap } from "react-icons/fa"
 
 export const links = [
   { name: "Home", hash: "#home" },
@@ -34,30 +36,31 @@ export const experience = [
     location: "Bangkok, Thailand",
     timeWorked: "Nov 2023 -  Feb 2024",
     achievements: [
-      "Employed React.JS and React Native to create applications.",
-      "Learnt more about Full Stack Development.",
-      "Collaborated with Team using Agile.",
+      "Applied React.JS and React Native to create or migrate applications.",
+      "Expanded knowledge in Full Stack Development.",
+      "Collaborated in multiple projects with Team using Agile.",
     ],
-    icon: { MdWork },
+    icon: React.createElement(FaReact),
     description: "React | NestJS | Jira | SQL",
   },
   {
-    title: "Academic Tutor",
+    title: "Hotel Attendant",
     location: "Brisbane, Australia",
-    timeWorked: "Jan 2023 - Jul 2023",
-    achievements: ["dsdksdsds", "sdnksndknskd", "dmsmdksmdkms"],
-    icon: { MdWork },
-    description: "dfndnkdndkndknfkdfkd fndkfnkdnfkdn fndknfkdnk",
+    timeWorked: "Jan 2022 - Jul 2022",
+    achievements: ["Communicating with client to provide best services",
+     "Consistently proved to provide cleaning services in efficient manner", 
+     "Distributed  workload evenly among team members."],
+    icon: React.createElement(FaGraduationCap),
+    description: "Efficiency | Quality Assurance | Communication | Customer Service",
   },
   {
     title: "McDonalds Crew Trainer",
     location: "Brisbane, Australia",
     timeWorked: "Jan 2018 - Nov 2022",
-    achievements: ["dsdksdsds", "sdnksndknskd", "dmsmdksmdkms"],
-    icon: { MdWork },
-
-    description: "dfndnkdndkndknfkdfkd fndkfnkdnfkdn fndknfkdnk",
-  },
+    achievements: ["Communicated with team to provide food services efficiently", "Lead a team under high pressure peak times", "Taught new members, the structure and strategie with my knowledge "],
+    icon: React.createElement(MdWork),
+    description: "Teamwork | Leadership | Efficiency | Communication", 
+  }
 ];
 
 export const skillsData = [

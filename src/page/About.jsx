@@ -17,7 +17,7 @@ const About = () => {
         I was able to expand my knowledge to Full Stack Development and work on
         multiple projects. I love programming because of the everlasting curiosity/learning and
         the satisfying feeling after solving problems. I am eager in roles as a{" "}
-        <span className="font-bold">Full-Stack Developer</span> offering
+        <span className="font-bold">Full-Stack Developer</span> or <span className="font-bold">Front-end Developer</span> offering
         expertise in{" "}
         <span className="font-bold">JavaScript, React, NodeJS.</span>
       </p>

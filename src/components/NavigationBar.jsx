@@ -6,14 +6,13 @@ const ScrollToSection= (sectionID) =>{
   if (selected){
     window.scroll({
       top: selected.offsetTop - 100,
-      behavior: 'smooth' //change to 'instant' if you want, smooth for user experience
+      behavior: 'smooth' 
     });
   }
 
 }
 
-const NavigationBar = () => {
-  const [ active, setActive ] = useState("#home");
+const NavigationBar = ({active, setActive}) => {
 
 
   return <header className=' z-[100] fixed top-4'>
