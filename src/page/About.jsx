@@ -2,7 +2,7 @@ import SectionHeading from "../components/SectionHeading";
 
 const About = () => {
   return (
-    <section id ='about' className="leading-8 max-w-[45rem] text-center text-[1rem]">
+    <section id ='about' className="leading-8 max-w-[45rem] text-center text-[0.85rem] sm:text-[1rem]">
       <SectionHeading>About Me</SectionHeading>
 
       <p className="mb-4 ">
@@ -19,7 +19,7 @@ const About = () => {
         the satisfying feeling after solving problems. I am eager in roles as a{" "}
         <span className="font-bold">Full-Stack Developer</span> or <span className="font-bold">Front-end Developer</span> offering
         expertise in{" "}
-        <span className="font-bold">JavaScript, React, NodeJS.</span>
+        <span className="font-bold">JavaScript, React, NodeJS, Tailwind.</span>
       </p>
       <p>
         {" "}

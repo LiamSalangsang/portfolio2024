@@ -38,6 +38,7 @@ export const experience = [
       "Applied ReactJS and React Native to create or migrate applications.",
       "Expanded knowledge in Full Stack Development.",
       "Collaborated in multiple projects with Team using Agile.",
+      "Learnt JWT authentication and code strucuture through an intern project with technical lead.",
     ],
     icon: React.createElement(FaReact),
     description: "React | NestJS | Jira | SQL",
@@ -45,7 +46,7 @@ export const experience = [
   {
     title: "Hotel Attendant",
     location: "Brisbane, Australia",
-    timeWorked: "Nov 2023 - Jul 2024",
+    timeWorked: "Jan 2023 - Aug 2023",
     achievements: [
       "Communicating with client to provide best services",
       "Consistently proved to provide cleaning services in efficient manner",

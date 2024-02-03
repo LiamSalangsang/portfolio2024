@@ -7,7 +7,7 @@ const ExperienceSection = (props) => {
     target: ref,
     offset: ["0.4 1", "1.1 1"],
   });
-  return <>
+ return (
 
   <motion.section ref = {ref} style={{
         scaleX: scrollYProgress,
@@ -28,7 +28,9 @@ const ExperienceSection = (props) => {
       </div>
       <div className="p-2"> Skills: <span className="font-semibold">{props.description}</span></div>
     </div>
-    </motion.section></>
+    </motion.section>)
+
+  
 };
 
 export default ExperienceSection;
