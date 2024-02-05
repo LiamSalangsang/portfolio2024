@@ -20,10 +20,10 @@ const WorkExperience = () => {
         <React.Fragment key={index}>
           <VerticalTimelineElement
     className="vertical-timeline-element--work  lg:w-[50rem] md:w-[42rem] overflow-hidden"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    contentStyle={{ background: 'rgb(93, 63, 211)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(93, 63, 211)' }}
     date= {item.timeWorked}
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(93, 63, 211)', color: '#fff' }}
     icon={item.icon}
   >
           <motion.div
