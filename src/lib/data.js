@@ -38,7 +38,7 @@ export const experience = [
       "Applied ReactJS and React Native to create or migrate applications.",
       "Expanded knowledge in Full Stack Development.",
       "Collaborated in multiple projects with Team using Agile.",
-      "Learnt JWT authentication and code strucuture through an intern project with technical lead.",
+      "Learnt JWT authentication and code structure through an intern project with technical lead.",
     ],
     icon: React.createElement(FaReact),
     description: "React | NestJS | Jira | SQL",
