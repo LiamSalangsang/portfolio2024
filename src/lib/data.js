@@ -35,13 +35,12 @@ export const experience = [
     location: "Remote",
     timeWorked: "April 2024 - Present",
     achievements: [
-      "Applied ReactJS and React Native to create or migrate applications.",
-      "Expanded knowledge in Full Stack Development.",
-      "Collaborated in multiple projects with Team using Agile.",
-      "Learnt JWT authentication and code structure through an intern project with technical lead.",
+      "Designed Elegant Website Templates on the QuickSite Guru Website.",
+      "Collaborated with Mentors to retrieve feedback regarding current UX/UI.",
+      "Strenghthened Team Communication Skills.",
     ],
     icon: React.createElement(FaReact),
-    description: "React | NestJS | Jira | SQL",
+    description: "Figma | Webflow | HTML | CSS",
   },
   {
     title: "Front End Developer Intern",
