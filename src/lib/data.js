@@ -31,6 +31,19 @@ export const projects = [
 
 export const experience = [
   {
+    title: "Web Developer Intern",
+    location: "Remote",
+    timeWorked: "April 2024 - Present",
+    achievements: [
+      "Applied ReactJS and React Native to create or migrate applications.",
+      "Expanded knowledge in Full Stack Development.",
+      "Collaborated in multiple projects with Team using Agile.",
+      "Learnt JWT authentication and code structure through an intern project with technical lead.",
+    ],
+    icon: React.createElement(FaReact),
+    description: "React | NestJS | Jira | SQL",
+  },
+  {
     title: "Front End Developer Intern",
     location: "Bangkok, Thailand",
     timeWorked: "Nov 2023 - Feb 2024",
@@ -42,18 +55,6 @@ export const experience = [
     ],
     icon: React.createElement(FaReact),
     description: "React | NestJS | Jira | SQL",
-  },
-  {
-    title: "Hotel Attendant",
-    location: "Brisbane, Australia",
-    timeWorked: "Jan 2023 - Aug 2023",
-    achievements: [
-      "Communicating with client to provide best services",
-      "Consistently proved to provide cleaning services in efficient manner",
-      "Distributed  workload evenly among team members.",
-    ],
-    icon: React.createElement(FaHotel),
-    description: "Efficiency | QA | Communication | Customer Service",
   },
   {
     title: "McDonalds Crew Trainer",
